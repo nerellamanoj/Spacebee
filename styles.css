@@ -1,0 +1,174 @@
+/* General body styling
+body {
+  background-color: #f7fafc;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container styling */
+/* .container {
+  max-width: 1200px;
+  padding: 2rem;
+  margin: auto;
+  text-align: center;
+}
+
+.text-center {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: #4a5568;
+  margin-bottom: 2rem;
+}
+
+/* Carousel wrapper */
+.carousel-wrapper {
+  position: relative;
+  max-width: 1024px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 0 2rem;
+}
+
+.carousel-item {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+  width: 200px;
+  cursor: pointer;
+}
+
+/* Carousel buttons */
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 50%;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.carousel-button:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-button.left {
+  left: 0.5rem;
+}
+
+.carousel-button.right {
+  right: 0.5rem;
+}
+
+/* Modal styling */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transform: scale(0.95);
+  transition: transform 0.3s ease;
+}
+
+.modal.show .modal-content {
+  transform: scale(1);
+}
+
+.close-button {
+  font-size: 1.5rem;
+  color: gray;
+  float: right;
+  cursor: pointer;
+}
+ .container12 {
+  width: 611px;
+  height: 131px;
+  top: 635px;
+  left: 314px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+}
+
+.text {
+  width: 405px;
+  height: 58.9px;
+  top: 635px;
+  left: 520px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  background: #003fb4;
+  color: white;
+}
+h3 {
+  font-size: 20px;
+  padding: 10px;
+}
+.content {
+  width: 150px;
+  height: 42.65px;
+  top: 665.47px;
+  left: 314px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 25%;
+}
+h2{
+  font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.11px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+img{
+  width: 120px;
+height: 51.79px;
+top: 714.21px;
+left: 435px;
+gap: 0px;
+opacity: 0px;
+margin-left: 30%;
+
+}
